@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Língua Nervosa</title>
+		<description>Um site de música, vídeos e textos</description>
+		<link>http://linguanervosa.com.br/</link>
+		<atom:link href="http://linguanervosa.com.br/feed.xml" rel="self" type="application/rss+xml" />	
+
+		<item>
+			<title>Júlia e Mateus</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=1</link>
+			<guid>http://linguanervosa.com.br/blogpage.html?id=1</guid>
+			<description>"E aí? O que você acha?", perguntou Júlia. Mateus tirou os olhos do livro, virou a cabeça na direção dela e resmungou: "Você falou comigo?" Não era a primeira vez que ele fazia isto. Júlia ficou irritadíssima. "Você deveria prestar mais atenção! Estou falando há vários minutos e você me ignora.", chorou.</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/meu-amigo-harvey.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+		<item>
+			<title>Geovanna e o bar de gelo</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=2</link>
+			<guid>http://linguanervosa.com.br/blogpage.html?id=2</guid>
+			<description>Cês tem certeza que não vamos ficar com frio? Eu sou muito friorenta", disse Geovanna. Mário, Felipe e Andrea a acalmaram. "Não se preocupe. Eles tem um casaco bem quentinho que dão antes de entrar."</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/a-republica.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+		<item>
+			<title>A alternativa de Roberto</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=3</link>
+			<guid>http://linguanervosa.com.br/blogpage.html?id=3</guid>
+			<description>Em outro universo, Roberto preferiria sorvete a picolés. Não gostaria de uvas, mas adoraria morangos. Deixaria seu trabalho para viver de arte. Ele reconfortou-se com este pensamento. Logo após uma escolha, Roberto sempre ponderava se outra seria melhor. Decidiu fazer esta experiência por um mês.</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/de-caso-com-o-acaso.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+		<item>
+			<title>O encontro de Clara e Francisca</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=4</link>
+			<guid>http://linguanervosa.com.br/blogpage.html?id=4</guid>
+			<description>Clara entrou no vagão exclusivo para mulheres do metrô e sentou-se ao lado de uma senhora. "Olá.", disse calmamente, "Bom dia." A senhora olhou para ela de cara fechada e acenou com a cabeça. "Desculpe-me se a incomodei, senhora", respondeu docemente.</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/vitima-da-seducao.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+		<item>
+			<title>A guerra de Enrico</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=5</link>
+			<guid>http://linguanervosa.com.br/blogpage.html?id=5</guid>
+			<description>Enrico não conseguia entender nada do que estava acontecendo. O golpe parlamentar, o exílio do presidente, a omissão dos juízes, a inobservância dos acordos internacionais, a revolução armada, tudo estava girando tão rápido que ninguém conseguia prestar atenção nas notícias. A mídia tradicional foi desacreditada quando hackers expuseram seus conluios com os articuladores do golpe.</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/time-to-die.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+		<item>
+			<title>Clara e a noite</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=6</link>
+			<guid>http://linguanervosa.com.br/blogpage.html?id=6</guid>
+			<description>Da janela do quarto, Clara admirou a vista. No parque embaixo, algumas pessoas andavam com seus cães. Um ou outro latido, de vez em quando. Um rapaz caminhava mais rápido. Devia ter chegado agora do trabalho. Parecia arfar. Quase esbarrou no casal de idosos que se levantou do banco da praça e se dirigia para o outro prédio. Não ouvia nenhum pássaro.</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/o-silmarillion.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+	</channel>
+</rss>

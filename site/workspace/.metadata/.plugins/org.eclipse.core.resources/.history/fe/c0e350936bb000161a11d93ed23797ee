@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Língua Nervosa</title>
+		<description>Insert witty or insightful remark here</description>
+		<link>http://linguanervosa.com.br/</link>
+
+		<item>
+			<title>Júlia e Mateus</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=1</link>
+			<description>"E aí? O que você acha?", perguntou Júlia. Mateus tirou os olhos do livro, virou a cabeça na direção dela e resmungou: "Você falou comigo?" Não era a primeira vez que ele fazia isto. Júlia ficou irritadíssima. "Você deveria prestar mais atenção! Estou falando há vários minutos e você me ignora.", chorou.</description>
+		</item>
+
+	</channel>
+</rss>

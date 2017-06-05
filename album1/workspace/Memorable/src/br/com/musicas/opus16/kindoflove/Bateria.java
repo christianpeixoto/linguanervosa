@@ -1,0 +1,115 @@
+package br.com.musicas.opus16.kindoflove;
+
+import org.jfugue.Pattern;
+
+
+public class Bateria extends Estrutura{
+
+	@Override
+	public void inicio() {
+		partitura.add(new Pattern("V9 X[Volume]=8600"));
+		partitura.add(new Pattern("[SIDE_STICK]q [SIDE_STICK]q [SIDE_STICK]q [SIDE_STICK]q"), 1);		
+	}
+
+	@Override
+	public void intro() {
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+		
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i Ri Ri Ri"), 1);
+	}
+
+	@Override
+	public void estrofe() {
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_2]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_2]i "), 1);
+	}
+
+	@Override
+	public void refrao() {
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i Ri Ri Ri"), 1);
+
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+	}
+		
+	@Override
+	public void solo() {
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+	}
+
+	@Override
+	public void fim() {
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i [ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i [OPEN_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_SNARE]i+[OPEN_HI_HAT]i Ri Ri Ri"), 1);
+
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i "), 1);
+		partitura.add(new Pattern("[ACOUSTIC_BASS_DRUM]i+[CLOSED_HI_HAT]i [CLOSED_HI_HAT]i [ACOUSTIC_SNARE]i+[CLOSED_HI_HAT]i [CRASH_CYMBAL_1]i "), 1);
+	}
+
+}

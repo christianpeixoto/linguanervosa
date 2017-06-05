@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Língua Nervosa</title>
+		<description>Um site de música, vídeos e textos</description>
+		<link>http://linguanervosa.com.br/</link>
+
+		<item>
+			<title>Júlia e Mateus</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=1</link>
+			<description>"E aí? O que você acha?", perguntou Júlia. Mateus tirou os olhos do livro, virou a cabeça na direção dela e resmungou: "Você falou comigo?" Não era a primeira vez que ele fazia isto. Júlia ficou irritadíssima. "Você deveria prestar mais atenção! Estou falando há vários minutos e você me ignora.", chorou.</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/meu-amigo-harvey.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+		<item>
+			<title>Geovanna e o bar de gelo</title>
+			<link>http://linguanervosa.com.br/blogpage.html?id=2</link>
+			<description>Cês tem certeza que não vamos ficar com frio? Eu sou muito friorenta", disse Geovanna. Mário, Felipe e Andrea a acalmaram. "Não se preocupe. Eles tem um casaco bem quentinho que dão antes de entrar."</description>
+			<enclosure url="http://linguanervosa.com.br/blog/img/a-republica.jpg" length="0" type="image/jpeg"/>
+		</item>
+
+	</channel>
+</rss>

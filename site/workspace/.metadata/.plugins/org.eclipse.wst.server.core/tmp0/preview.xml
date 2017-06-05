@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="site" name="site" path="/home/christian/Projetos/linguanervosa/site/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/site" type="static"/>
+</server>

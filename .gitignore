@@ -1,0 +1,4 @@
+**/*.mp3
+**/*.wav
+site/workspace/site/WebContent/songs/**
+libs/**

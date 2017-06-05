@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+        <title>Língua Nervosa</title>
+        <subtitle>Insert witty or insightful remark here</subtitle>
+        <link href="http://linguanrvosa.com.br/"/>
+        <updated>2016-11-22T18:30:02Z</updated>
+        <author>
+                <name>Christian</name>
+                <email>info@linguanervosa.com.br</email>
+        </author>
+        <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+
+        <entry>
+                <title>Júlia e Mateus</title>
+                <link href="http://linguanervosa.com.br/blogpage.html?id=1&page=1"/>
+                <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+                <updated>2016-08-29T18:30:02Z</updated>
+                <summary>"E aí? O que você acha?", perguntou Júlia. Mateus tirou os olhos do livro, virou a cabeça na direção dela e resmungou: "Você falou comigo?" Não era a primeira vez que ele fazia isto. Júlia ficou irritadíssima. "Você deveria prestar mais atenção! Estou falando há vários minutos e você me ignora.", chorou.</summary>
+        </entry>
+
+</feed>
